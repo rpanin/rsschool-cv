@@ -59,12 +59,12 @@ footer{
 .image{
     float: left;
 }
-img {
+header img {
     border-radius: 50%;
     height: 100px;
     transition-property: border-radius;
 }
-img:hover{
+header img:hover{
     border-radius: 30px;
 }
 main .left {
@@ -113,4 +113,7 @@ main .right article{
 }
 main .right article h3{
     background-color: indianred;
+}
+footer img{
+    height:100px;
 }
